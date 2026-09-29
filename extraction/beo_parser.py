@@ -1,7 +1,6 @@
 import re
 from datetime import datetime
 
-
 def get_all_text(beo_data):
     """Join text from every page into one string for simple searches."""
     parts = []

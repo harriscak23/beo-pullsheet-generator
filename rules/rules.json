@@ -1,6 +1,1153 @@
-// "packages": [
-//     "Breakfast Package",
-//     "Lunch Set",
-//     "Continental Breakfast",
-//     "New Package"
-// ]
+{
+    "packages": [
+      {
+        "name": "olympic",
+        "aliases": [
+          "olympic breakfast package"
+        ],
+        "uom": "each"
+      },
+      {
+        "name": "cascade",
+        "aliases": [
+          "cascade breakfast package"
+        ],
+        "uom": "each"
+      },
+      {
+        "name": "silver",
+        "aliases": [
+          "silver sandwich buffet",
+          "silver sandwich buffet package"
+        ],
+        "uom": "each"
+      },
+      {
+        "name": "gold",
+        "aliases": [
+          "gold sandwich buffet",
+          "gold sandwich buffet package"
+        ],
+        "uom": "each"
+      },
+      {
+        "name": "platinum",
+        "aliases": [
+          "platinum sandwich buffet",
+          "platinum sandwich buffet package"
+        ],
+        "uom": "each"
+      },
+      {
+        "name": "bay laurel picnic",
+        "aliases": [
+          "bay laurel picnic appetizer package"
+        ],
+        "uom": "each"
+      },
+      {
+        "name": "festivo italiano",
+        "aliases": [
+          "festivo italiano appetizer package"
+        ],
+        "uom": "each"
+      },
+      {
+        "name": "healthy to-go",
+        "aliases": [
+          "healthy to go",
+          "healthy to-go break package"
+        ],
+        "uom": "each"
+      },
+      {
+        "name": "sweet & salty",
+        "aliases": [
+          "sweet and salty",
+          "sweet & salty break package"
+        ],
+        "uom": "each"
+      }
+    ],
+    "categories": {
+      "a la carte": {
+        "default_uom": "each",
+        "items": [
+          {
+            "name": "flavored greek yogurt - individual portions. lower-fat yoplait yogurt options are also available",
+            "aliases": [
+              "flavored greek yogurt",
+              "individual flavored greek yogurt"
+            ],
+            "uom": "each"
+          },
+          {
+            "name": "yogurt with granola and berries - creamy 100% natural greek-style yogurt with nutty granola, fresh berries and honey",
+            "aliases": [
+              "greek yogurt with granola and berries",
+              "yogurt, granola and berries"
+            ],
+            "uom": "each"
+          },
+          {
+            "name": "scrambled eggs with cheddar cheese - organic, cage-free eggs scrambled with cheddar cheese",
+            "aliases": [
+              "scrambled eggs",
+              "eggs with cheddar cheese"
+            ],
+            "uom": "each"
+          },
+          {
+            "name": "roasted breakfast potatoes",
+            "uom": "each"
+          },
+          {
+            "name": "chicken-apple sausage links",
+            "aliases": [
+              "chicken apple sausage"
+            ],
+            "uom": "each"
+          },
+          {
+            "name": "hardwood smoked bacon",
+            "aliases": [
+              "smoked bacon"
+            ],
+            "uom": "each"
+          }
+        ]
+      },
+      "continental breakfast": {
+        "default_uom": "each",
+        "items": [
+          {
+            "name": "olympic - freshly cut seasonal fruit platter and freshly baked butter croissants with raspberry preserves",
+            "aliases": [
+              "olympic breakfast",
+              "olympic breakfast package"
+            ],
+            "uom": "each",
+            "is_package": true
+          },
+          {
+            "name": "cascade - freshly cut seasonal fruit platter served with honey and nutty granola and freshly baked butter croissants with raspberry preserves",
+            "aliases": [
+              "cascade breakfast",
+              "cascade breakfast package"
+            ],
+            "uom": "each",
+            "is_package": true
+          }
+        ]
+      },
+      "pastries": {
+        "default_uom": "per dozen",
+        "items": [
+          {
+            "name": "assorted scones - flavors include apricot-white chocolate, cranberry-orange and lemon-currant",
+            "uom": "per dozen"
+          },
+          {
+            "name": "assorted bagels - served with plain whipped cream cheese; flavors include plain, sesame, whole wheat, cinnamon raisin and everything",
+            "aliases": [
+              "bagels"
+            ],
+            "uom": "per dozen",
+            "options": [
+              "plain",
+              "sesame",
+              "whole wheat",
+              "cinnamon raisin",
+              "everything"
+            ],
+            "option_availability": "available by the half dozen"
+          },
+          {
+            "name": "breakfast muffins - flavors include blueberry streusel, morning glory, chocolate chunk and raspberry-coconut",
+            "uom": "per dozen",
+            "options": [
+              "blueberry streusel",
+              "morning glory",
+              "chocolate chunk",
+              "raspberry-coconut"
+            ]
+          },
+          {
+            "name": "butter croissants - served with raspberry preserves",
+            "uom": "per dozen"
+          },
+          {
+            "name": "cinnamon rolls",
+            "uom": "per dozen"
+          },
+          {
+            "name": "doughnuts",
+            "uom": "per dozen"
+          },
+          {
+            "name": "fruit danish assortment",
+            "uom": "per dozen"
+          },
+          {
+            "name": "seasonal quick breads",
+            "uom": "per dozen"
+          }
+        ]
+      },
+      "fruit": {
+        "default_uom": "each",
+        "items": [
+          {
+            "name": "market fresh fruit tray - cantaloupe, grapes, honeydew, pineapple, seedless watermelon and seasonal fruit",
+            "uom": "each",
+            "variants": [
+              {
+                "name": "small",
+                "serves": 20
+              },
+              {
+                "name": "medium",
+                "serves": 40
+              },
+              {
+                "name": "large",
+                "serves": 60
+              }
+            ]
+          }
+        ]
+      },
+      "spreads": {
+        "default_uom": "each",
+        "notes": [
+          "each order contains 16 ounces"
+        ],
+        "items": [
+          {
+            "name": "plain whipped cream cheese",
+            "uom": "each"
+          },
+          {
+            "name": "basil-pesto cream cheese",
+            "uom": "each"
+          },
+          {
+            "name": "sun-dried tomato cream cheese",
+            "uom": "each"
+          },
+          {
+            "name": "plant-based herbed cream cheese",
+            "uom": "each"
+          },
+          {
+            "name": "plant-based sun-dried tomato cream cheese",
+            "uom": "each"
+          }
+        ]
+      },
+      "sandwich platters": {
+        "default_uom": "each",
+        "notes": [
+          "one whole sandwich, consisting of two halves, per person per order",
+          "gluten-free bread is available as an option"
+        ],
+        "items": [
+          {
+            "name": "classic deli - deli sandwiches on sliced whole wheat, white and rye breads with lettuce, tomato, cheese and dijon mayonnaise on the side; selection includes turkey, roast beef, ham and vegetarian; vegetarian option includes sun-dried tomato spread, sunflower seeds, shaved english cucumber, lettuce, tomato, sweet peppers and shaved onion",
+            "aliases": [
+              "classic deli sandwich",
+              "classic deli sandwiches"
+            ],
+            "uom": "each",
+            "options": [
+              "turkey",
+              "roast beef",
+              "ham",
+              "vegetarian"
+            ],
+            "option_notes": [
+              "vegetarian options should be confirmed with the sales representative"
+            ],
+            "available_modifications": [
+              "gluten-free bread"
+            ]
+          },
+          {
+            "name": "husky wrap - sandwich wraps with leaf lettuce, tomato and appropriate spread on spinach, tomato and garlic-herb tortillas; selection includes turkey, roast beef, ham and vegetarian; vegetarian option includes sun-dried tomato spread, roasted zucchini, sweet onions, roasted red peppers, lettuce, tomato and shaved english cucumber",
+            "aliases": [
+              "husky wraps",
+              "husky sandwich wrap"
+            ],
+            "uom": "each",
+            "options": [
+              "turkey",
+              "roast beef",
+              "ham",
+              "vegetarian"
+            ]
+          },
+          {
+            "name": "torpedo - fresh baguette sandwich with two three-inch baguette lengths per person per order; select two fillings",
+            "uom": "each",
+            "options": [
+              "caprese",
+              "italian meats",
+              "mediterranean eggplant",
+              "pesto-chicken salad"
+            ],
+            "selection_rule": "select two options"
+          }
+        ]
+      },
+      "sandwich buffet packages": {
+        "default_uom": "each",
+        "items": [
+          {
+            "name": "silver - mixed green salad with balsamic vinaigrette, tim's cascade potato chips, assorted freshly baked cookies at two per person, assorted soft drinks and iced water",
+            "aliases": [
+              "silver sandwich buffet",
+              "silver package"
+            ],
+            "uom": "each",
+            "is_package": true,
+            "contents": [
+              "mixed green salad with balsamic vinaigrette",
+              "tim's cascade potato chips",
+              "assorted freshly baked cookies - two per person",
+              "assorted soft drinks",
+              "iced water"
+            ]
+          },
+          {
+            "name": "gold - mixed green salad with balsamic vinaigrette, mediterranean pasta salad, cut fruit salad, tim's cascade potato chips, assorted freshly baked cookies at two per person, assorted soft drinks and iced water",
+            "aliases": [
+              "gold sandwich buffet",
+              "gold package"
+            ],
+            "uom": "each",
+            "is_package": true,
+            "contents": [
+              "mixed green salad with balsamic vinaigrette",
+              "mediterranean pasta salad",
+              "cut fruit salad",
+              "tim's cascade potato chips",
+              "assorted freshly baked cookies - two per person",
+              "assorted soft drinks",
+              "iced water"
+            ]
+          },
+          {
+            "name": "platinum - mixed green salad with balsamic vinaigrette, mediterranean pasta salad, hard and soft cheese with grapes, flatbreads and crackers, cut fruit salad, tim's cascade potato chips, assorted petite specialty dessert pastries, assorted soft drinks and iced water",
+            "aliases": [
+              "platinum sandwich buffet",
+              "platinum package"
+            ],
+            "uom": "each",
+            "is_package": true,
+            "contents": [
+              "mixed green salad with balsamic vinaigrette",
+              "mediterranean pasta salad",
+              "hard and soft cheese with grapes, flatbreads and crackers",
+              "cut fruit salad",
+              "tim's cascade potato chips",
+              "assorted petite specialty dessert pastries",
+              "assorted soft drinks",
+              "iced water"
+            ]
+          }
+        ]
+      },
+      "salad bowls": {
+        "default_uom": "per bowl",
+        "notes": [
+          "each bowl provides 15-20 entree-size portions or 30-40 side portions",
+          "dressing is served separately"
+        ],
+        "items": [
+          {
+            "name": "almond-citrus chicken salad - mixed greens with grilled soy-ginger chicken, toasted almonds, bell peppers, cucumber and citrus segments; served with honey-ginger vinaigrette",
+            "uom": "per bowl"
+          },
+          {
+            "name": "classic caesar salad bowl - fresh romaine lettuce topped with shredded parmesan cheese, house-toasted croutons and lemon wedges; served with classic caesar dressing",
+            "aliases": [
+              "classic caesar salad"
+            ],
+            "uom": "per bowl"
+          },
+          {
+            "name": "cobb salad - fresh-roasted chicken breast, crisp bacon, tomatoes, sliced olives, crumbled oregon bleu cheese and hard-cooked eggs on organic mixed greens; served with ranch dressing",
+            "uom": "per bowl"
+          },
+          {
+            "name": "montlake salad - fresh-roasted pears, oregon bleu cheese, sun-dried cranberries, spiced walnuts and red seedless grapes on seasonal mixed greens; served with champagne vinaigrette dressing",
+            "uom": "per bowl"
+          }
+        ]
+      },
+      "hot reception fare": {
+        "default_uom": "per dozen",
+        "notes": [
+          "service labor applies for events with hot food"
+        ],
+        "items": [
+          {
+            "name": "cajun spiced shrimp and grits",
+            "uom": "per dozen",
+            "dietary_tags": [
+              "gf"
+            ]
+          },
+          {
+            "name": "chicken wings with buttermilk ranch dressing",
+            "uom": "per dozen"
+          },
+          {
+            "name": "crab beignets with roasted pepper aioli",
+            "uom": "per dozen"
+          },
+          {
+            "name": "crispy coconut prawns with pineapple sambal",
+            "uom": "per dozen"
+          },
+          {
+            "name": "crispy vegetable gyoza with soy sauce and sweet chili sauce",
+            "uom": "per dozen",
+            "dietary_tags": [
+              "v"
+            ]
+          },
+          {
+            "name": "dungeness crab cakes with charred lemon remoulade",
+            "uom": "per dozen"
+          },
+          {
+            "name": "empanadas with cilantro-tomatillo sauce and tomato salsa",
+            "uom": "per dozen",
+            "options": [
+              "beef",
+              "chicken"
+            ]
+          },
+          {
+            "name": "marinated tofu skewers with bell peppers and onions",
+            "uom": "per dozen",
+            "dietary_tags": [
+              "vg"
+            ]
+          },
+          {
+            "name": "meatballs with basil marinara and parmesan, teriyaki or southwest barbecue sauce",
+            "uom": "per dozen",
+            "options": [
+              "basil marinara with parmesan",
+              "teriyaki",
+              "southwest barbecue"
+            ]
+          },
+          {
+            "name": "meatless meatball sliders with pickled onion and barbecue sauce",
+            "uom": "per dozen",
+            "dietary_tags": [
+              "vg"
+            ]
+          },
+          {
+            "name": "mini barbecue beef burgers",
+            "uom": "per dozen"
+          },
+          {
+            "name": "northwest mini mushroom quiches with cambozola cheese",
+            "uom": "per dozen",
+            "dietary_tags": [
+              "v"
+            ]
+          },
+          {
+            "name": "spanakopita - phyllo pastry filled with spinach and goat cheese",
+            "uom": "per dozen",
+            "dietary_tags": [
+              "v"
+            ]
+          },
+          {
+            "name": "sweet corn and rock fish fritters with roasted pepper aioli",
+            "uom": "per dozen"
+          },
+          {
+            "name": "tandoori-style roasted chicken skewers with mint raita",
+            "uom": "per dozen"
+          },
+          {
+            "name": "teriyaki pacific salmon skewers",
+            "uom": "per dozen"
+          },
+          {
+            "name": "thai crispy garlic chicken wings with lemongrass, coconut, green curry and red chili dips",
+            "uom": "per dozen"
+          },
+          {
+            "name": "vegetarian egg rolls with sesame plum and soy-ginger sauces",
+            "uom": "per dozen",
+            "dietary_tags": [
+              "v"
+            ]
+          },
+          {
+            "name": "wild salmon cakes with mango salsa",
+            "uom": "per dozen"
+          }
+        ]
+      },
+      "cold reception fare": {
+        "default_uom": "per dozen",
+        "notes": [
+          "presented on platters with sauces or accompaniments"
+        ],
+        "items": [
+          {
+            "name": "bruschetta with savory mascarpone and slow-roasted tomato slices",
+            "uom": "per dozen",
+            "dietary_tags": [
+              "v"
+            ]
+          },
+          {
+            "name": "butternut squash hummus in phyllo shells with pomegranate arils and toasted pistachios",
+            "uom": "per dozen",
+            "dietary_tags": [
+              "vg"
+            ]
+          },
+          {
+            "name": "chickpea phyllo cup",
+            "uom": "per dozen",
+            "dietary_tags": [
+              "vg"
+            ]
+          },
+          {
+            "name": "chili-lime chicken pinwheels",
+            "uom": "per dozen"
+          },
+          {
+            "name": "classic deviled eggs",
+            "uom": "per dozen"
+          },
+          {
+            "name": "grilled flatbreads with caramelized onion, goat cheese and fresh herbs",
+            "uom": "per dozen",
+            "dietary_tags": [
+              "v"
+            ]
+          },
+          {
+            "name": "honey-glazed wild king salmon on croccantini with dill cream cheese",
+            "uom": "per dozen"
+          },
+          {
+            "name": "pickled beets on a belgian endive spear with herbed plant-based cream cheese",
+            "uom": "per dozen",
+            "dietary_tags": [
+              "vg",
+              "gf"
+            ]
+          },
+          {
+            "name": "prosciutto-wrapped prawn skewers",
+            "uom": "per dozen"
+          },
+          {
+            "name": "rare roast beef on crisp flatbread with rosemary aioli and oven-dried tomato",
+            "uom": "per dozen"
+          },
+          {
+            "name": "roasted gala apples and beecher's flagship cheese with toasted hazelnuts and clover honey",
+            "uom": "per dozen",
+            "dietary_tags": [
+              "v",
+              "gf"
+            ]
+          },
+          {
+            "name": "sauteed wild mushroom on toasted garlic focaccia with herbed chevre schmear",
+            "uom": "per dozen",
+            "dietary_tags": [
+              "v"
+            ]
+          },
+          {
+            "name": "sea salt roasted chicken on crostini with savory heirloom tomato jam and crispy sage",
+            "uom": "per dozen"
+          },
+          {
+            "name": "seared marinated ahi tuna on a crispy wonton with wasabi sauce",
+            "uom": "per dozen"
+          },
+          {
+            "name": "petite grilled beef roulades with chimichurri dip",
+            "uom": "per dozen"
+          },
+          {
+            "name": "smoked salmon rosettes with chive cream cheese",
+            "uom": "per dozen"
+          },
+          {
+            "name": "tomato, basil and fresh mozzarella on garlic crostini",
+            "uom": "per dozen",
+            "dietary_tags": [
+              "v"
+            ]
+          },
+          {
+            "name": "vegetarian spring rolls with tangy peanut dipping sauce",
+            "uom": "per dozen",
+            "dietary_tags": [
+              "vg"
+            ]
+          }
+        ]
+      },
+      "appetizer platters": {
+        "default_uom": "each",
+        "notes": [
+          "fruit and vegetable selections vary by season"
+        ],
+        "items": [
+          {
+            "name": "caprese platter - thick slices of fresh tomato layered with marinated fresh mozzarella and basil, drizzled with extra virgin olive oil",
+            "uom": "each",
+            "serves": 40
+          },
+          {
+            "name": "mediterranean pita bar - seasoned pita wedges and herbed flatbread crackers served with a choice of three dips",
+            "uom": "each",
+            "serves": 25,
+            "options": [
+              "artichokes with caramelized garlic",
+              "baba ganoush",
+              "herb-whipped feta",
+              "hummus",
+              "olive tapenade",
+              "tomato, garlic and basil relish"
+            ],
+            "selection_rule": "select three dips"
+          },
+          {
+            "name": "smoked king salmon platter - smoked king salmon served with red onions, capers, mini bagels, crispy flatbreads and whipped cream cheese",
+            "uom": "each",
+            "serves": 40
+          },
+          {
+            "name": "antipasti platter - cured meats, salamis, dry sausages, caprese salad, imported olives, baby artichokes, marinated mushrooms and grilled asparagus",
+            "uom": "each",
+            "variants": [
+              {
+                "name": "small",
+                "serves": 20
+              },
+              {
+                "name": "medium",
+                "serves": 40
+              },
+              {
+                "name": "large",
+                "serves": 60
+              }
+            ]
+          },
+          {
+            "name": "cheese trays - local and imported cheeses with crackers, mixed nuts, dried fruit and flatbreads",
+            "uom": "each",
+            "variants": [
+              {
+                "name": "small",
+                "serves": 20
+              },
+              {
+                "name": "medium",
+                "serves": 40
+              },
+              {
+                "name": "large",
+                "serves": 60
+              }
+            ]
+          },
+          {
+            "name": "crudites - seasonal vegetables served with buttermilk ranch dip",
+            "uom": "each",
+            "variants": [
+              {
+                "name": "small",
+                "serves": 20
+              },
+              {
+                "name": "medium",
+                "serves": 40
+              },
+              {
+                "name": "large",
+                "serves": 60
+              }
+            ]
+          },
+          {
+            "name": "market fresh fruit tray - cantaloupe, grapes, honeydew, pineapple, seedless watermelon and seasonal fruit",
+            "aliases": [
+              "fruit tray",
+              "seasonal fruit tray"
+            ],
+            "uom": "each",
+            "variants": [
+              {
+                "name": "small",
+                "serves": 20
+              },
+              {
+                "name": "medium",
+                "serves": 40
+              },
+              {
+                "name": "large",
+                "serves": 60
+              }
+            ]
+          },
+          {
+            "name": "roasted vegetable platter - seasonal vegetables roasted and served with red pepper aioli",
+            "uom": "each",
+            "variants": [
+              {
+                "name": "small",
+                "serves": 20
+              },
+              {
+                "name": "medium",
+                "serves": 40
+              },
+              {
+                "name": "large",
+                "serves": 60
+              }
+            ]
+          }
+        ]
+      },
+      "appetizer packages": {
+        "default_uom": "each",
+        "minimum_guests": 25,
+        "items": [
+          {
+            "name": "bay laurel picnic - grilled flatbreads with goat cheese, caramelized onion and fresh herbs, deviled eggs, caprese skewers, crostini bar with artichoke, oregon bleu cheese and sun-dried tomato spread, and sliced fresh fruit",
+            "uom": "each",
+            "is_package": true,
+            "contents": [
+              "grilled flatbreads with goat cheese, caramelized onion and fresh herbs",
+              "deviled eggs",
+              "caprese skewers",
+              "crostini bar with artichoke, oregon bleu cheese and sun-dried tomato spread",
+              "sliced fresh fruit"
+            ]
+          },
+          {
+            "name": "festivo italiano - antipasto display with cured meats, salamis, dry sausages, caprese salad, imported olives, baby artichokes, marinated mushrooms and grilled asparagus; roasted tomato bruschetta with savory mascarpone and gremolata; caprese skewers with basil-pesto marinated bocconcini mozzarella and cherry tomatoes; grilled flatbreads with roasted sweet peppers, basil-pesto, ricotta and provolone; pita bar with three dips; petite lemon bars; fresh-brewed coffee, decaf and assorted tazo teas",
+            "uom": "each",
+            "is_package": true,
+            "contents": [
+              "antipasto display",
+              "roasted tomato bruschetta with savory mascarpone and gremolata",
+              "caprese skewers with basil-pesto marinated bocconcini mozzarella and cherry tomatoes",
+              "grilled flatbreads with roasted sweet peppers, basil-pesto, ricotta and provolone",
+              "pita bar with three dips",
+              "petite lemon bars",
+              "fresh-brewed coffee",
+              "decaffeinated coffee",
+              "assorted tazo teas"
+            ],
+            "options": [
+              "artichokes with caramelized garlic",
+              "baba ganoush",
+              "herb-whipped feta",
+              "hummus",
+              "olive tapenade",
+              "tomato, garlic and basil relish"
+            ],
+            "selection_rule": "select three dips"
+          }
+        ]
+      },
+      "individual snacks": {
+        "default_uom": "each",
+        "items": [
+          {
+            "name": "assorted flavored greek-style yogurts",
+            "uom": "each"
+          },
+          {
+            "name": "assorted flavored yoplait yogurts",
+            "uom": "each"
+          },
+          {
+            "name": "tim's cascade potato chips",
+            "aliases": [
+              "tim's potato chips"
+            ],
+            "uom": "each"
+          },
+          {
+            "name": "orchard valley cranberry-almond trail mix",
+            "aliases": [
+              "cranberry-almond trail mix"
+            ],
+            "uom": "each"
+          }
+        ]
+      },
+      "snacks to share": {
+        "default_uom": "per order",
+        "serves": {
+          "min": 10,
+          "max": 12
+        },
+        "items": [
+          {
+            "name": "seasoned rice cracker mix",
+            "uom": "per order"
+          },
+          {
+            "name": "mixed nuts",
+            "uom": "per order"
+          },
+          {
+            "name": "peanuts",
+            "uom": "per order"
+          },
+          {
+            "name": "pretzels",
+            "uom": "per order"
+          },
+          {
+            "name": "potato chips with ranch dip",
+            "uom": "per order"
+          },
+          {
+            "name": "tortilla chips with fresh salsa",
+            "uom": "per order"
+          }
+        ]
+      },
+      "snacks per dozen": {
+        "default_uom": "per dozen",
+        "items": [
+          {
+            "name": "individually bagged popcorn",
+            "uom": "per dozen"
+          },
+          {
+            "name": "kashi trail mix granola bars",
+            "uom": "per dozen"
+          },
+          {
+            "name": "whole fresh fruit",
+            "uom": "per dozen"
+          },
+          {
+            "name": "chocolate brownies",
+            "uom": "per dozen"
+          },
+          {
+            "name": "chocolate brownies - petite",
+            "aliases": [
+              "petite chocolate brownies"
+            ],
+            "uom": "per dozen"
+          },
+          {
+            "name": "gourmet dessert bars",
+            "uom": "per dozen"
+          },
+          {
+            "name": "house-baked cookie assortment",
+            "uom": "per dozen"
+          },
+          {
+            "name": "mini cookie sandwiches",
+            "uom": "per dozen"
+          }
+        ]
+      },
+      "beverages by the gallon": {
+        "default_uom": "gallon",
+        "servings_per_gallon": 25,
+        "rounding": "ceil",
+        "items": [
+          {
+            "name": "fresh-brewed coffee",
+            "uom_options": [
+              "gallon",
+              "each"
+            ]
+          },
+          {
+            "name": "fresh-brewed decaffeinated coffee",
+            "aliases": [
+              "decaf coffee"
+            ],
+            "uom_options": [
+              "gallon",
+              "each"
+            ]
+          },
+          {
+            "name": "cold brew iced coffee",
+            "uom_options": [
+              "gallon",
+              "each"
+            ]
+          },
+          {
+            "name": "assorted tazo teas",
+            "aliases": [
+              "assorted teas",
+              "tazo tea"
+            ],
+            "uom_options": [
+              "gallon",
+              "each"
+            ]
+          },
+          {
+            "name": "hot chocolate and spiced cider pack",
+            "uom_options": [
+              "gallon",
+              "each"
+            ]
+          },
+          {
+            "name": "brewed hot cider",
+            "uom_options": [
+              "gallon",
+              "each"
+            ]
+          },
+          {
+            "name": "ginger honeycrisp apple cider",
+            "uom_options": [
+              "gallon",
+              "each"
+            ]
+          },
+          {
+            "name": "iced tea with lemon wedges",
+            "uom_options": [
+              "gallon",
+              "each"
+            ]
+          },
+          {
+            "name": "peach iced tea",
+            "uom_options": [
+              "gallon",
+              "each"
+            ]
+          },
+          {
+            "name": "lemonade",
+            "uom_options": [
+              "gallon",
+              "each"
+            ]
+          },
+          {
+            "name": "marionberry lemonade",
+            "uom_options": [
+              "gallon",
+              "each"
+            ]
+          },
+          {
+            "name": "apple juice",
+            "uom_options": [
+              "gallon",
+              "each"
+            ]
+          },
+          {
+            "name": "orange juice",
+            "uom_options": [
+              "gallon",
+              "each"
+            ]
+          },
+          {
+            "name": "iced water",
+            "uom_options": [
+              "gallon",
+              "each"
+            ]
+          }
+        ]
+      },
+      "individual beverages": {
+        "default_uom": "each",
+        "description": "each serving is in an individual bottle or carton",
+        "items": [
+          {
+            "name": "assorted juice - orange, apple, cranberry or grapefruit juice bottles",
+            "uom": "each",
+            "options": [
+              "orange",
+              "apple",
+              "cranberry",
+              "grapefruit"
+            ]
+          },
+          {
+            "name": "assorted soft drinks",
+            "uom": "each"
+          },
+          {
+            "name": "bottled water - non-carbonated",
+            "uom": "each"
+          },
+          {
+            "name": "sparkling water",
+            "uom": "each"
+          },
+          {
+            "name": "2% milk",
+            "uom": "each"
+          },
+          {
+            "name": "martinelli's sparkling cider - 12-ounce bottle serves 5-6",
+            "uom": "each",
+            "serves": {
+              "min": 5,
+              "max": 6
+            },
+            "container_size": "12 ounces"
+          },
+          {
+            "name": "martinelli's sparkling cider - individual bottle",
+            "uom": "each"
+          }
+        ]
+      },
+      "break packages": {
+        "default_uom": "each",
+        "minimum_guests": 15,
+        "items": [
+          {
+            "name": "healthy to-go - kashi trail mix granola bars, whole fresh fruit, assorted bottled juices, iced water, fresh-brewed coffee, decaf and assorted tazo teas",
+            "uom": "each",
+            "is_package": true,
+            "dietary_tags": [
+              "gf"
+            ],
+            "contents": [
+              "kashi trail mix granola bars",
+              "whole fresh fruit",
+              "assorted bottled juices",
+              "iced water",
+              "fresh-brewed coffee",
+              "decaffeinated coffee",
+              "assorted tazo teas"
+            ]
+          },
+          {
+            "name": "sweet and salty - pretzels, chocolate chip cookies, orchard valley cranberry-almond trail mix, assorted soft drinks, iced water, fresh-brewed coffee, decaf and assorted tazo teas",
+            "aliases": [
+              "sweet & salty"
+            ],
+            "uom": "each",
+            "is_package": true,
+            "contents": [
+              "pretzels",
+              "chocolate chip cookies",
+              "orchard valley cranberry-almond trail mix",
+              "assorted soft drinks",
+              "iced water",
+              "fresh-brewed coffee",
+              "decaffeinated coffee",
+              "assorted tazo teas"
+            ]
+          }
+        ]
+      },
+      "desserts by the dozen": {
+        "default_uom": "per dozen",
+        "minimum_order": {
+          "quantity": 2,
+          "uom": "dozen",
+          "applies_to": "petite desserts"
+        },
+        "items": [
+          {
+            "name": "assorted petit fours",
+            "uom": "per dozen"
+          },
+          {
+            "name": "blueberry cheesecake trifle",
+            "uom": "per dozen"
+          },
+          {
+            "name": "coconut panna cotta with blackberry coulis",
+            "uom": "per dozen",
+            "dietary_tags": [
+              "vg",
+              "gf"
+            ]
+          },
+          {
+            "name": "chocolate brownies",
+            "uom": "per dozen"
+          },
+          {
+            "name": "chocolate brownies - petite",
+            "aliases": [
+              "petite chocolate brownies"
+            ],
+            "uom": "per dozen",
+            "is_petite": true
+          },
+          {
+            "name": "gourmet dessert bars",
+            "uom": "per dozen"
+          },
+          {
+            "name": "house-baked cookie assortment",
+            "uom": "per dozen"
+          },
+          {
+            "name": "macarons - assorted flavors",
+            "uom": "per dozen",
+            "dietary_tags": [
+              "gf"
+            ]
+          },
+          {
+            "name": "mini cookie sandwiches",
+            "uom": "per dozen"
+          },
+          {
+            "name": "petite chocolate cream puff",
+            "uom": "per dozen",
+            "is_petite": true
+          },
+          {
+            "name": "petite espresso cream puff",
+            "uom": "per dozen",
+            "is_petite": true
+          }
+        ]
+      }
+    },
+    "operational_notes": {
+      "beverage_conversion": {
+        "servings_per_gallon": 25,
+        "rounding": "ceil",
+        "note": "use the catering operation's rule of 25 guests per gallon when converting guest quantities to gallons; preserve quantities already expressed in gallons"
+      }
+    }
+}
