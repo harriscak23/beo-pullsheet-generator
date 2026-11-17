@@ -9,7 +9,7 @@ RULES_PATH = Path(__file__).resolve().parent.parent / "rules" / "rules.json"
 
 # Scores are 0-100. At or above this, a fuzzy result counts as a match.
 # Below it, the best candidate is still reported so it can be reviewed.
-MATCH_THRESHOLD = 85
+MATCH_THRESHOLD = 75
 
 
 def load_rules(path=RULES_PATH):
