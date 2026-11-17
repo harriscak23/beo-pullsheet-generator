@@ -1,6 +1,33 @@
 import re
 from datetime import datetime
 
+APOSTROPHES = "'‘’ʼ`"
+
+
+def normalize_name(text):
+    """
+    Normalize a menu item name for matching against rules.json.
+
+    1. Lowercase everything.
+    2. "&" becomes " and ".
+    3. Apostrophes are deleted ("Tim's" -> "tims").
+    4. All other punctuation becomes a space (hyphens, commas, parentheses,
+       slashes, quotes, periods, "%", etc.).
+    5. Collapse whitespace to single spaces and trim the ends.
+    """
+    if text is None:
+        return None
+
+    result = str(text).lower()
+    result = result.replace("&", " and ")
+    for apostrophe in APOSTROPHES:
+        result = result.replace(apostrophe, "")
+    # Anything that is not a letter, digit or whitespace is punctuation.
+    # (Underscore counts as punctuation too.)
+    result = re.sub(r"[^\w\s]|_", " ", result)
+    return " ".join(result.split())
+
+
 def get_all_text(beo_data):
     """Join text from every page into one string for simple searches."""
     parts = []
@@ -236,6 +263,7 @@ def parse_menu_selections(beo_data):
 
             menu_items.append({
                 "name": description,
+                "normalized_name": normalize_name(description),
                 "quantity": item_qty,
                 "uom": item_uom,
             })
