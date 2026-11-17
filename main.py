@@ -1,5 +1,6 @@
 from extraction.pdf_extractor import extract_pdf
 from extraction.beo_parser import parse_beo
+from matching.rule_matcher import match_menu_selections, print_match_report
 
 
 pdf_path = "pdf/sample_beo.pdf"
@@ -31,3 +32,7 @@ else:
         print(f"  Quantity: {item['quantity']}")
         print(f"  UOM: {item['uom']}")
         print()
+
+# Step 3: compare menu items against rules.json
+matched = match_menu_selections(parsed["menu_selections"])
+print_match_report(matched)
