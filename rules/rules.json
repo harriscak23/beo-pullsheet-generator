@@ -1,55 +1,1782 @@
 {
   "menu_items": [
     {
-      "name": "coffee, decaf, hot tea, & iced water",
-      "uom": ["gallon", "each"]
-    },
-    {
-      "name": [ 
-        "fresh-brewed coffee", 
-        "fresh-brewed decaffeinated coffee"
+      "name": "belgian waffles",
+      "uom": [
+        "guest"
       ],
-      "uom": ["gallon", "each"]
+      "utensils": "tongs, spoons for fruit toppings and whipped cream"
     },
     {
-      "name": "hot water with an assortment of black, green, and herbal tea bags",
-      "aliases": [
-        "hot tea"
+      "name": "caprese scramble",
+      "uom": [
+        "guest"
       ],
-      "uom": ["gallon", "each"]
+      "utensils": "serving spoon"
     },
     {
-      "name": "iced water",
-      "uom": ["gallon", "each"]
-    },
-    {
-      "name": [
-        "lemonade",
-        "orange juice"
+      "name": "garden vegetable frittata",
+      "uom": [
+        "guest"
       ],
-      "uom": ["gallon", "each"]
+      "utensils": "pie lifter or serving spoon"
+    },
+    {
+      "name": "italian frittata",
+      "uom": [
+        "guest"
+      ],
+      "utensils": "pie lifter or serving spoon"
+    },
+    {
+      "name": "pacific northwest salmon scramble",
+      "uom": [
+        "guest"
+      ],
+      "utensils": "serving spoon"
+    },
+    {
+      "name": "scrambled eggs",
+      "uom": [
+        "guest"
+      ],
+      "utensils": "serving spoon"
+    },
+    {
+      "name": "southwest scramble",
+      "uom": [
+        "guest"
+      ],
+      "utensils": "serving spoon, smaller spoons for salsa/sour cream, tongs for tortillas"
+    },
+    {
+      "name": "traditional breakfast sandwiches",
+      "uom": [
+        "guest"
+      ],
+      "utensils": "tongs"
+    },
+    {
+      "name": "flavored greek yogurt",
+      "uom": [
+        "guest"
+      ],
+      "utensils": "spoons (to eat with)"
+    },
+    {
+      "name": "yogurt with granola and berries",
+      "uom": [
+        "guest"
+      ],
+      "utensils": "serving spoons for all three items"
+    },
+    {
+      "name": "organic cage free scrambled eggs",
+      "uom": [
+        "guest"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "roasted breakfast potatoes",
+      "uom": [
+        "guest"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "chicken apple sausage links",
+      "uom": [
+        "guest"
+      ],
+      "utensils": "tongs"
+    },
+    {
+      "name": "hardwood smoked bacon",
+      "uom": [
+        "guest"
+      ],
+      "utensils": "tongs"
+    },
+    {
+      "name": "olympic",
+      "uom": [
+        "guest"
+      ],
+      "utensils": "tongs (fruit platter, croissants); bamboo spoon for raspberry preserves"
+    },
+    {
+      "name": "cascade",
+      "uom": [
+        "guest"
+      ],
+      "utensils": "tongs (fruit platter, croissants); bamboo spoon for raspberry preserves; serving spoons (granola)"
+    },
+    {
+      "name": "assorted scones",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "assorted bagels",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs, bamboo spoon"
+    },
+    {
+      "name": "breakfast muffins",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "butter croissants",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs, bamboo spoon"
+    },
+    {
+      "name": "cinnamon rolls",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "doughnuts",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "fruit danish assortment",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "seasonal quick breads",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "plain whipped cream cheese",
+      "uom": [
+        "each"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "basil pesto cream cheese",
+      "uom": [
+        "each"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "sun dried tomato cream cheese",
+      "uom": [
+        "each"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "plant based herbed cream cheese",
+      "uom": [
+        "each"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "plant based sun dried tomato cream cheese",
+      "uom": [
+        "each"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "continental breakfast",
+      "uom": [
+        "guest"
+      ],
+      "utensils": "None"
+    },
+    {
+      "name": "fresh baked individual quiche",
+      "uom": [
+        "guest"
+      ],
+      "utensils": "None"
+    },
+    {
+      "name": "classic deli",
+      "uom": [
+        "guest"
+      ],
+      "utensils": "Tongs, small spoons for may and mustard"
+    },
+    {
+      "name": "husky wrap",
+      "uom": [
+        "guest"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "torpedo",
+      "uom": [
+        "guest"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "almond citrus chicken salad",
+      "uom": [
+        "bowl"
+      ],
+      "utensils": "Salad tongs, spoon/ladle for vinaigrette"
+    },
+    {
+      "name": "classic caesar salad bowl",
+      "uom": [
+        "bowl"
+      ],
+      "utensils": "Salad tongs, spoon/ladle for vinaigrette"
+    },
+    {
+      "name": "cobb salad",
+      "uom": [
+        "bowl"
+      ],
+      "utensils": "Salad tongs, spoon/ladle for vinaigrette"
+    },
+    {
+      "name": "montlake salad",
+      "uom": [
+        "bowl"
+      ],
+      "utensils": "Salad tongs, spoon/ladle for vinaigrette"
+    },
+    {
+      "name": "roasted turkey with havarti",
+      "uom": [
+        "each"
+      ],
+      "utensils": "ALL utensils/plates/napkins are included inside box"
+    },
+    {
+      "name": "smoked ham and swiss",
+      "uom": [
+        "each"
+      ],
+      "utensils": "ALL utensils/plates/napkins are included inside box"
+    },
+    {
+      "name": "roast beef with cheddar cheese",
+      "uom": [
+        "each"
+      ],
+      "utensils": "ALL utensils/plates/napkins are included inside box"
+    },
+    {
+      "name": "fresh veggie v",
+      "uom": [
+        "each"
+      ],
+      "utensils": "ALL utensils/plates/napkins are included inside box"
+    },
+    {
+      "name": "tlt smoked tofu vg",
+      "uom": [
+        "each"
+      ],
+      "utensils": "ALL utensils/plates/napkins are included inside box"
+    },
+    {
+      "name": "focaccia di manzo",
+      "uom": [
+        "each"
+      ],
+      "utensils": "ALL utensils/plates/napkins are included inside box"
+    },
+    {
+      "name": "turkey and brie croissant",
+      "uom": [
+        "each"
+      ],
+      "utensils": "ALL utensils/plates/napkins are included inside box"
+    },
+    {
+      "name": "italian baguette",
+      "uom": [
+        "each"
+      ],
+      "utensils": "ALL utensils/plates/napkins are included inside box"
+    },
+    {
+      "name": "caesar salad with grilled chicken",
+      "uom": [
+        "each"
+      ],
+      "utensils": "ALL utensils/plates/napkins are included inside box"
+    },
+    {
+      "name": "chefs salad gf",
+      "uom": [
+        "each"
+      ],
+      "utensils": "ALL utensils/plates/napkins are included inside box"
+    },
+    {
+      "name": "quinoa salad vg gf",
+      "uom": [
+        "each"
+      ],
+      "utensils": "ALL utensils/plates/napkins are included inside box"
+    },
+    {
+      "name": "montlake salad v gf",
+      "uom": [
+        "each"
+      ],
+      "utensils": "ALL utensils/plates/napkins are included inside box"
+    },
+    {
+      "name": "tuna nicoise salad gf",
+      "uom": [
+        "each"
+      ],
+      "utensils": "ALL utensils/plates/napkins are included inside box"
+    },
+    {
+      "name": "cajun spiced shrimp and grits gf",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "chicken wings",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs, small spoon for dip"
+    },
+    {
+      "name": "crab beignets",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs, small spoon for dip"
+    },
+    {
+      "name": "crispy coconut prawns",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs, small spoon for dip"
+    },
+    {
+      "name": "crispy vegetable gyoza v",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs, small spoons for dips"
+    },
+    {
+      "name": "dungeness crab cakes",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs, small spoon for dip"
+    },
+    {
+      "name": "empanadas",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs, small spoons for dips"
+    },
+    {
+      "name": "marinated tofu skewers vg",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "None (skewers)"
+    },
+    {
+      "name": "meatballs",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Spoon"
+    },
+    {
+      "name": "meatless meatball sliders vg",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "mini barbecue beef burgers",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "northwest mini mushroom quiches v",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "spanakopita v",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "sweet corn and rock fish fritters",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs, small spoons for dip"
+    },
+    {
+      "name": "tandoori style roasted chicken skewers",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "teriyaki pacific salmon skewers",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "thai crispy garlic chicken wings",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs, small spoons for dips"
+    },
+    {
+      "name": "vegetarian egg rolls v",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs, small spoons for dips"
+    },
+    {
+      "name": "wild salmon cakes",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs, small spoons for dip"
+    },
+    {
+      "name": "bruschetta v",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "butternut squash hummus in phyllo shells vg",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "chickpea phyllo cup vg",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "chili lime chicken pinwheels",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "classic deviled eggs",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "grilled flatbreads v",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "honey glazed wild king salmon on croccantini",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "pickled beets on a belgian endive spear vg gf",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "prosciutto wrapped prawn skewers",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "None (skewers)"
+    },
+    {
+      "name": "rare roast beef on crisp flatbread",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "roasted gala apples and beechers flagship cheese v gf",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "sauteed wild mushroom on toasted garlic focaccia v",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "sea salt roasted chicken on crostini",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "seared marinated ahi tuna on a crispy wonton",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "petite grilled beef roulades",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "smoked salmon rosettes",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "tomato basil and fresh mozzarella v",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "vegetarian spring rolls vg",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "Tongs, small spoon for dip"
+    },
+    {
+      "name": "caprese platter",
+      "uom": [
+        "each"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "mediterranean pita bar",
+      "uom": [
+        "each"
+      ],
+      "utensils": "Tongs, small spoons for dips"
+    },
+    {
+      "name": "smoked king salmon platter",
+      "uom": [
+        "each"
+      ],
+      "utensils": "Tongs, small spoons for cream cheese"
+    },
+    {
+      "name": "antipasti platter",
+      "uom": [
+        "each"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "cheese trays",
+      "uom": [
+        "each"
+      ],
+      "utensils": "Tongs"
+    },
+    {
+      "name": "crudités",
+      "uom": [
+        "each"
+      ],
+      "utensils": "Tongs, small spoon for dip"
+    },
+    {
+      "name": "roasted vegetable platter",
+      "uom": [
+        "each"
+      ],
+      "utensils": "Tongs, small spoon for dip"
+    },
+    {
+      "name": "autumn harvest",
+      "uom": [
+        "guest"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "mediterranean pasta salad",
+      "uom": [
+        "guest"
+      ],
+      "utensils": "Serving spoon"
+    },
+    {
+      "name": "seasonal vegetable selection",
+      "uom": [
+        "guest"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "grilled vegetables and tofu skewers vg gf",
+      "uom": [
+        "guest"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "assorted flavored greek style yogurts",
+      "uom": [
+        "each"
+      ],
+      "utensils": "spoons (to eat with)"
+    },
+    {
+      "name": "assorted flavored yoplait yogurts",
+      "uom": [
+        "each"
+      ],
+      "utensils": "spoons (to eat with)"
+    },
+    {
+      "name": "tims cascade potato chips",
+      "uom": [
+        "each"
+      ],
+      "utensils": "Tongs and serving bowl (not basket) - BULK chips!"
+    },
+    {
+      "name": "orchard valley cranberry almond trail mix",
+      "uom": [
+        "each"
+      ],
+      "utensils": "None"
+    },
+    {
+      "name": "seasoned rice cracker mix",
+      "uom": [
+        "each"
+      ],
+      "utensils": "Serving spoon"
+    },
+    {
+      "name": "mixed nuts",
+      "uom": [
+        "each"
+      ],
+      "utensils": "Serving spoons"
+    },
+    {
+      "name": "peanuts",
+      "uom": [
+        "each"
+      ],
+      "utensils": "Serving spoons"
+    },
+    {
+      "name": "pretzels",
+      "uom": [
+        "each"
+      ],
+      "utensils": "None"
+    },
+    {
+      "name": "potato chips with ranch dip",
+      "uom": [
+        "each"
+      ],
+      "utensils": "Tongs, spoon for dip"
+    },
+    {
+      "name": "tortilla chips with fresh salsa",
+      "uom": [
+        "each"
+      ],
+      "utensils": "Tongs, spoon for salsa"
+    },
+    {
+      "name": "individually bagged popcorn",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "kashi trail mix granola bars",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": "None"
+    },
+    {
+      "name": "chocolate brownies",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "chocolate brownies petite",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "gourmet dessert bars",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "house baked cookie assortment",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "mini cookie sandwiches",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "healthy to go gf",
+      "uom": [
+        "guest"
+      ],
+      "utensils": "Tongs for whole fruit"
+    },
+    {
+      "name": "sweet and salty",
+      "uom": [
+        "guest"
+      ],
+      "utensils": "Tongs for pretzels, cookies"
+    },
+    {
+      "name": "assorted petit fours",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "blueberry cheesecake trifle",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "coconut panna cotta with blackberry coulis vg gf",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "macarons assorted flavors gf",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "petite chocolate cream puff",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "petite espresso cream puff",
+      "uom": [
+        "dozen"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "chocolate fills",
+      "uom": [
+        "package"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "dippers",
+      "uom": [
+        "guest"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "fresh brewed coffee",
+      "uom": [
+        "gallon"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "fresh brewed decaffeinated coffee",
+      "uom": [
+        "gallon"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "cold brew iced coffee",
+      "uom": [
+        "gallon"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "assorted tazo teas",
+      "uom": [
+        "gallon"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "hot chocolate and spiced cider pack",
+      "uom": [
+        "gallon"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "brewed hot cider",
+      "uom": [
+        "gallon"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "ginger honeycrisp apple cider",
+      "uom": [
+        "gallon"
+      ],
+      "utensils": null
     },
     {
       "name": "iced tea with lemon wedges",
-      "uom": ["gallon", "each"]
-    },
-    {
-      "name": "bottled orange juice",
-      "uom": "each"
-    },
-    {
-      "name": [
-        "assorted soft drinks",
-        "sparkling water- flavored",
-        "sparkling water- plain",
-        "bottled water (non-carbonated)"
+      "uom": [
+        "gallon"
       ],
-      "uom": "each"
+      "utensils": null
+    },
+    {
+      "name": "peach iced tea",
+      "uom": [
+        "gallon"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "lemonade",
+      "uom": [
+        "gallon"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "marionberry lemonade",
+      "uom": [
+        "gallon"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "apple juice",
+      "uom": [
+        "gallon"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "orange juice",
+      "uom": [
+        "gallon"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "iced water",
+      "uom": [
+        "gallon"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "assorted juice",
+      "uom": [
+        "each"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "assorted soft drinks",
+      "uom": [
+        "each"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "bottled water non carbonated",
+      "uom": [
+        "each"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "sparkling water",
+      "uom": [
+        "each"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "2 milk",
+      "uom": [
+        "each"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "martinellis sparkling cider",
+      "uom": [
+        "each"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "martinellis sparkling cider individual bottle",
+      "uom": [
+        "each"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "fresh brewed coffee box",
+      "uom": [
+        "gallon, each"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "fresh brewed decaffeinated coffee box",
+      "uom": [
+        "gallon"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "assorted hot tazo teas box",
+      "uom": [
+        "box"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "orange juice box",
+      "uom": [
+        "box"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "hosted beer wine and nonalcoholic bar",
+      "uom": [
+        "drink"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "hosted full bar",
+      "uom": [
+        "drink"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "credit card beer wine and nonalcoholic bar",
+      "uom": [
+        "drink"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "credit card full bar",
+      "uom": [
+        "drink"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "bottled beers microbrews and cider",
+      "uom": [
+        "drink"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "washington wines by the glass",
+      "uom": [
+        "drink"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "prosecco by the glass",
+      "uom": [
+        "drink"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "signature cocktails by the drink",
+      "uom": [
+        "drink"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "well drinks by the drink",
+      "uom": [
+        "drink"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "nonalcoholic beverages",
+      "uom": [
+        "drink"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "bar",
+      "uom": [
+        "bar"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "additional bar service",
+      "uom": [
+        "bar",
+        "hour"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "bar glassware",
+      "uom": [
+        "guest"
+      ],
+      "utensils": null
+    },
+    {
+      "name": "server labor",
+      "uom": [
+        "hour"
+      ],
+      "utensils": null
     }
   ],
-  "unit_rules": {
-    "beverage_servings_per_gallon": 25,
-    "beverage_rounding": "ceil",
-    "guest_unit": "each"
-  }
+  "package_header": [
+    {
+      "name": "bay laurel picnic",
+      "pdf_name": "Bay Laurel Picnic",
+      "uom": [
+        "package"
+      ],
+      "utensils": null,
+      "items": [
+        {
+          "name": "crostini bar with artichoke oregon bleu cheese and sun dried tomato spread",
+          "utensils": null
+        }
+      ]
+    },
+    {
+      "name": "festivo italiano",
+      "pdf_name": "Festivo Italiano",
+      "uom": [
+        "package"
+      ],
+      "utensils": null,
+      "items": [
+        {
+          "name": "roasted tomato bruschetta with savory mascarpone and gremolata",
+          "utensils": null
+        },
+        {
+          "name": "grilled flatbreads with roasted sweet peppers basil pesto ricotta and provolone cheese",
+          "utensils": null
+        },
+        {
+          "name": "caramelized garlic",
+          "utensils": null
+        },
+        {
+          "name": "baba ghanoush",
+          "utensils": null
+        },
+        {
+          "name": "herb whipped feta",
+          "utensils": null
+        },
+        {
+          "name": "hummus",
+          "utensils": null
+        },
+        {
+          "name": "olive tapenade",
+          "utensils": null
+        },
+        {
+          "name": "tomato garlic basil relish",
+          "utensils": null
+        },
+        {
+          "name": "petite lemon bars",
+          "utensils": null
+        }
+      ]
+    },
+    {
+      "name": "the dabbawalla",
+      "pdf_name": "The Dabbawalla",
+      "uom": [
+        "package"
+      ],
+      "utensils": null,
+      "items": [
+        {
+          "name": "chicken tikka masala",
+          "utensils": "Serving spoon"
+        },
+        {
+          "name": "aloo gobi",
+          "utensils": "Serving spoon"
+        },
+        {
+          "name": "basmati rice",
+          "utensils": "Serving spoon"
+        },
+        {
+          "name": "warm flatbread",
+          "utensils": "Tongs"
+        },
+        {
+          "name": "romaine salad w toppings",
+          "utensils": "Tongs, small ladle or spoon for raita"
+        },
+        {
+          "name": "cinnamon rice pudding",
+          "utensils": "Serving spoon"
+        }
+      ]
+    },
+    {
+      "name": "flavors of the southwest",
+      "pdf_name": "Flavors of the Southwest",
+      "uom": [
+        "package"
+      ],
+      "utensils": null,
+      "items": [
+        {
+          "name": "choice of chipotle chicken carne asada combo of both",
+          "utensils": "Serving spoon"
+        },
+        {
+          "name": "pico de gallo peek o day gy o",
+          "utensils": "Small spoon"
+        },
+        {
+          "name": "guacamole",
+          "utensils": "small spoon"
+        },
+        {
+          "name": "sour cream",
+          "utensils": "small spoon"
+        },
+        {
+          "name": "flour tortillas",
+          "utensils": "Tongs"
+        },
+        {
+          "name": "black beans w queso fresco",
+          "utensils": "Serving spoon; small spoon for queso (if on the side)"
+        },
+        {
+          "name": "cumin rice",
+          "utensils": "Serving spoon"
+        },
+        {
+          "name": "mixed greens w toasted pepitas",
+          "utensils": "tongs, small ladle for vinaigrette"
+        },
+        {
+          "name": "tres leches cake treys ley cheys",
+          "utensils": "tongs"
+        }
+      ]
+    },
+    {
+      "name": "the marrakech",
+      "pdf_name": "The Marrakech",
+      "uom": [
+        "package"
+      ],
+      "utensils": null,
+      "items": [
+        {
+          "name": "chicken slow cooked with lemon and olive",
+          "utensils": "tongs"
+        },
+        {
+          "name": "vegetable chickpea tagine with couscous",
+          "utensils": "serving spoon"
+        },
+        {
+          "name": "flatbread",
+          "utensils": "tongs"
+        },
+        {
+          "name": "mixed greens with cucumber orange fennel and pomegranate vinaigrette",
+          "utensils": "salad tongs, ladle for vinaigrette"
+        },
+        {
+          "name": "cinnamon rice pudding with butter and pistachios",
+          "utensils": "serving spoon"
+        }
+      ]
+    },
+    {
+      "name": "mediterranean",
+      "pdf_name": "Mediterranean Buffet",
+      "uom": [
+        "package"
+      ],
+      "utensils": null,
+      "items": [
+        {
+          "name": "oregano marinated chicken breast",
+          "utensils": "tongs"
+        },
+        {
+          "name": "roasted pacific rockfish",
+          "utensils": "serving spoon"
+        },
+        {
+          "name": "lemon scented rice",
+          "utensils": "serving spoon"
+        },
+        {
+          "name": "toasted pita chips",
+          "utensils": "Tongs, spoons for dips"
+        },
+        {
+          "name": "baklava",
+          "utensils": "tongs"
+        }
+      ]
+    },
+    {
+      "name": "mesa de sonora",
+      "pdf_name": "Mesa De Sonora",
+      "uom": [
+        "package"
+      ],
+      "utensils": null,
+      "items": [
+        {
+          "name": "cheese or chicken enchiladas",
+          "utensils": "serving spoon"
+        },
+        {
+          "name": "frijoles borrachos",
+          "utensils": "serving spoon"
+        },
+        {
+          "name": "cumin rice",
+          "utensils": "serving spoon"
+        },
+        {
+          "name": "blue corn tortilla chips",
+          "utensils": "tongs"
+        },
+        {
+          "name": "almond cookies",
+          "utensils": null
+        }
+      ]
+    },
+    {
+      "name": "pacific northwest",
+      "pdf_name": "Pacific Northwest Buffet",
+      "uom": [
+        "package"
+      ],
+      "utensils": null,
+      "items": [
+        {
+          "name": "chicken salmon chicken and salmon",
+          "utensils": "Chicken: Tongs or serving spoon. Salmon: Serving spoon"
+        },
+        {
+          "name": "washington apple carrot slaw",
+          "utensils": "Serving spoon"
+        },
+        {
+          "name": "roasted yukon gold potatoes",
+          "utensils": null
+        },
+        {
+          "name": "rolls with butter",
+          "utensils": "tongs, butter tongs"
+        },
+        {
+          "name": "apple crisp with vanilla whipped cream",
+          "utensils": "Serving spoons (1 for crisp, one for whipped cream)"
+        }
+      ]
+    },
+    {
+      "name": "pasta dal giardino",
+      "pdf_name": "Pasta dal Giardino",
+      "uom": [
+        "package"
+      ],
+      "utensils": "serving spoon",
+      "items": [
+        {
+          "name": "mixed greens with cucumber tomato",
+          "utensils": "salad tongs, small ladle for vinaigrette"
+        },
+        {
+          "name": "double chocolate brownies",
+          "utensils": "tongs"
+        }
+      ]
+    },
+    {
+      "name": "savory mushroom and eggplant cobbler v",
+      "pdf_name": "Savory Mushroom and Eggplant Cobbler",
+      "uom": [
+        "package"
+      ],
+      "utensils": "serving spoon",
+      "items": [
+        {
+          "name": "mixed greens with cucumber tomato",
+          "utensils": "salad tongs, small ladle for vinaigrette"
+        },
+        {
+          "name": "double chocolate brownies",
+          "utensils": "tongs"
+        }
+      ]
+    },
+    {
+      "name": "tavola americana",
+      "pdf_name": "Tavola Americana",
+      "uom": [
+        "package"
+      ],
+      "utensils": null,
+      "items": [
+        {
+          "name": "chicken picatta penne alla vodka chicken and penne",
+          "utensils": "Chicken: tongs. Penne: Serving spoon"
+        },
+        {
+          "name": "onion and parmesan cheese baked",
+          "utensils": null
+        },
+        {
+          "name": "antipasto platter",
+          "utensils": "tongs"
+        },
+        {
+          "name": "seasonal vegetables",
+          "utensils": "serving spoon"
+        },
+        {
+          "name": "tiramisu",
+          "utensils": "serving spoon"
+        }
+      ]
+    },
+    {
+      "name": "alki beach bbq",
+      "pdf_name": "Alki Beach BBQ",
+      "uom": [
+        "package"
+      ],
+      "utensils": null,
+      "items": [
+        {
+          "name": "barbecued ribs",
+          "utensils": null
+        },
+        {
+          "name": "grilled chicken quarters",
+          "utensils": null
+        },
+        {
+          "name": "brown sugar baked beans",
+          "utensils": null
+        },
+        {
+          "name": "corn on the cob",
+          "utensils": null
+        },
+        {
+          "name": "buttermilk biscuits",
+          "utensils": null
+        },
+        {
+          "name": "cut seedless watermelon",
+          "utensils": null
+        }
+      ]
+    },
+    {
+      "name": "island way bbq",
+      "pdf_name": "Island Way BBQ",
+      "uom": [
+        "package"
+      ],
+      "utensils": null,
+      "items": [
+        {
+          "name": "grilled huli huli chicken",
+          "utensils": null
+        },
+        {
+          "name": "kalua pork",
+          "utensils": null
+        },
+        {
+          "name": "hawaiian style macaroni salad",
+          "utensils": null
+        },
+        {
+          "name": "heart of romaine salad with tomtao cucumber toasted macadamia nuts and kimchi vinaigrette",
+          "utensils": null
+        },
+        {
+          "name": "steamed rice",
+          "utensils": null
+        },
+        {
+          "name": "white chocolate macadamia nut cookies",
+          "utensils": null
+        }
+      ]
+    },
+    {
+      "name": "mediterranean grilled chicken",
+      "pdf_name": "Mediterranean Grilled Chicken",
+      "uom": [
+        "package"
+      ],
+      "utensils": null,
+      "items": [
+        {
+          "name": "grilled lemon and oregano marinated chicken breast",
+          "utensils": null
+        },
+        {
+          "name": "pita bread with olive oil",
+          "utensils": null
+        },
+        {
+          "name": "salad of romaine hearts with tomato cucumber crumbled feta cheese and balsamic vinaigrette",
+          "utensils": null
+        },
+        {
+          "name": "pearl couscous and vegetable salad with olives mint and herb vinaigrette",
+          "utensils": null
+        },
+        {
+          "name": "roasted potatoes with garlic and a squeeze of lemon",
+          "utensils": null
+        }
+      ]
+    },
+    {
+      "name": "montlake grill",
+      "pdf_name": "Montlake Grill",
+      "uom": [
+        "package"
+      ],
+      "utensils": null,
+      "items": [
+        {
+          "name": "grilled sirloin steak",
+          "utensils": null
+        },
+        {
+          "name": "grilled alaskan salmon",
+          "utensils": null
+        },
+        {
+          "name": "chilled roasted seasonal vegetable salad with white balsamic vinaigrette",
+          "utensils": null
+        },
+        {
+          "name": "lemon scented shortcake",
+          "utensils": null
+        }
+      ]
+    },
+    {
+      "name": "pacific northwest grill",
+      "pdf_name": "Pacfic Northwest Grill",
+      "uom": [
+        "package"
+      ],
+      "utensils": null,
+      "items": [
+        {
+          "name": "wild pacific king salmon",
+          "utensils": null
+        },
+        {
+          "name": "housemade red potato salad",
+          "utensils": null
+        }
+      ]
+    },
+    {
+      "name": "the all american",
+      "pdf_name": "The All-American",
+      "uom": [
+        "package"
+      ],
+      "utensils": null,
+      "items": [
+        {
+          "name": "beef burgers",
+          "utensils": null
+        },
+        {
+          "name": "beef hotdogs",
+          "utensils": null
+        },
+        {
+          "name": "ketchup",
+          "utensils": null
+        },
+        {
+          "name": "mustard",
+          "utensils": null
+        },
+        {
+          "name": "relish",
+          "utensils": null
+        },
+        {
+          "name": "mayonnaise",
+          "utensils": null
+        },
+        {
+          "name": "grilled vegetables and tofu skewers vg gf",
+          "utensils": null
+        }
+      ]
+    },
+    {
+      "name": "a la carte",
+      "pdf_name": "A la Carte",
+      "uom": [
+        "package"
+      ],
+      "utensils": null,
+      "items": [
+        {
+          "name": "flavored greek yogurt",
+          "utensils": "spoons (to eat with)"
+        },
+        {
+          "name": "yogurt with granola and berries",
+          "utensils": "serving spoons for all three items"
+        },
+        {
+          "name": "organic cage free scrambled eggs",
+          "utensils": null
+        },
+        {
+          "name": "roasted breakfast potatoes",
+          "utensils": null
+        },
+        {
+          "name": "chicken apple sausage links",
+          "utensils": "tongs"
+        },
+        {
+          "name": "hardwood smoked bacon",
+          "utensils": "tongs"
+        }
+      ]
+    },
+    {
+      "name": "market fresh fruit tray",
+      "pdf_name": "Fruit Platter",
+      "uom": [
+        "package"
+      ],
+      "utensils": "Tongs",
+      "items": []
+    },
+    {
+      "name": "whole fresh fruit",
+      "pdf_name": "Whole Fruit",
+      "uom": [
+        "package"
+      ],
+      "utensils": "Tongs",
+      "items": []
+    },
+    {
+      "name": "silver",
+      "pdf_name": null,
+      "uom": [
+        "package"
+      ],
+      "utensils": null,
+      "items": [
+        {
+          "name": "mixed green salad",
+          "utensils": "Salad tongs, spoon/ladle for vinaigrette"
+        }
+      ]
+    },
+    {
+      "name": "gold",
+      "pdf_name": null,
+      "uom": [
+        "package"
+      ],
+      "utensils": null,
+      "items": [
+        {
+          "name": "mixed green salad",
+          "utensils": "Salad tongs, spoon/ladle for vinaigrette"
+        },
+        {
+          "name": "mediterranean pasta salad",
+          "utensils": "Serving spoon"
+        },
+        {
+          "name": "cut fruit salad",
+          "utensils": "Serving spoon"
+        }
+      ]
+    },
+    {
+      "name": "platinum",
+      "pdf_name": null,
+      "uom": [
+        "package"
+      ],
+      "utensils": null,
+      "items": [
+        {
+          "name": "mixed green salad",
+          "utensils": "Salad tongs, spoon/ladle for vinaigrette"
+        },
+        {
+          "name": "mediterranean pasta salad",
+          "utensils": "Serving spoon"
+        },
+        {
+          "name": "cut fruit salad",
+          "utensils": "Serving spoon"
+        },
+        {
+          "name": "assorted petite specialty dessert pastries",
+          "utensils": null
+        }
+      ]
+    }
+  ]
 }
