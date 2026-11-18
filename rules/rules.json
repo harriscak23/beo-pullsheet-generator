@@ -99,20 +99,6 @@
       "utensils": "tongs"
     },
     {
-      "name": "olympic",
-      "uom": [
-        "guest"
-      ],
-      "utensils": "tongs (fruit platter, croissants); bamboo spoon for raspberry preserves"
-    },
-    {
-      "name": "cascade",
-      "uom": [
-        "guest"
-      ],
-      "utensils": "tongs (fruit platter, croissants); bamboo spoon for raspberry preserves; serving spoons (granola)"
-    },
-    {
       "name": "assorted scones",
       "uom": [
         "dozen"
@@ -202,13 +188,6 @@
         "each"
       ],
       "utensils": null
-    },
-    {
-      "name": "continental breakfast",
-      "uom": [
-        "guest"
-      ],
-      "utensils": "None"
     },
     {
       "name": "fresh baked individual quiche",
@@ -1160,7 +1139,6 @@
   "package_header": [
     {
       "name": "bay laurel picnic",
-      "pdf_name": "Bay Laurel Picnic",
       "uom": [
         "package"
       ],
@@ -1174,7 +1152,6 @@
     },
     {
       "name": "festivo italiano",
-      "pdf_name": "Festivo Italiano",
       "uom": [
         "package"
       ],
@@ -1220,7 +1197,6 @@
     },
     {
       "name": "the dabbawalla",
-      "pdf_name": "The Dabbawalla",
       "uom": [
         "package"
       ],
@@ -1254,7 +1230,6 @@
     },
     {
       "name": "flavors of the southwest",
-      "pdf_name": "Flavors of the Southwest",
       "uom": [
         "package"
       ],
@@ -1300,7 +1275,6 @@
     },
     {
       "name": "the marrakech",
-      "pdf_name": "The Marrakech",
       "uom": [
         "package"
       ],
@@ -1330,7 +1304,6 @@
     },
     {
       "name": "mediterranean",
-      "pdf_name": "Mediterranean Buffet",
       "uom": [
         "package"
       ],
@@ -1360,7 +1333,6 @@
     },
     {
       "name": "mesa de sonora",
-      "pdf_name": "Mesa De Sonora",
       "uom": [
         "package"
       ],
@@ -1390,7 +1362,6 @@
     },
     {
       "name": "pacific northwest",
-      "pdf_name": "Pacific Northwest Buffet",
       "uom": [
         "package"
       ],
@@ -1420,7 +1391,6 @@
     },
     {
       "name": "pasta dal giardino",
-      "pdf_name": "Pasta dal Giardino",
       "uom": [
         "package"
       ],
@@ -1438,7 +1408,6 @@
     },
     {
       "name": "savory mushroom and eggplant cobbler v",
-      "pdf_name": "Savory Mushroom and Eggplant Cobbler",
       "uom": [
         "package"
       ],
@@ -1456,7 +1425,6 @@
     },
     {
       "name": "tavola americana",
-      "pdf_name": "Tavola Americana",
       "uom": [
         "package"
       ],
@@ -1486,7 +1454,6 @@
     },
     {
       "name": "alki beach bbq",
-      "pdf_name": "Alki Beach BBQ",
       "uom": [
         "package"
       ],
@@ -1520,7 +1487,6 @@
     },
     {
       "name": "island way bbq",
-      "pdf_name": "Island Way BBQ",
       "uom": [
         "package"
       ],
@@ -1554,7 +1520,6 @@
     },
     {
       "name": "mediterranean grilled chicken",
-      "pdf_name": "Mediterranean Grilled Chicken",
       "uom": [
         "package"
       ],
@@ -1584,7 +1549,6 @@
     },
     {
       "name": "montlake grill",
-      "pdf_name": "Montlake Grill",
       "uom": [
         "package"
       ],
@@ -1610,7 +1574,6 @@
     },
     {
       "name": "pacific northwest grill",
-      "pdf_name": "Pacfic Northwest Grill",
       "uom": [
         "package"
       ],
@@ -1628,7 +1591,6 @@
     },
     {
       "name": "the all american",
-      "pdf_name": "The All-American",
       "uom": [
         "package"
       ],
@@ -1666,7 +1628,6 @@
     },
     {
       "name": "a la carte",
-      "pdf_name": "A la Carte",
       "uom": [
         "package"
       ],
@@ -1700,7 +1661,6 @@
     },
     {
       "name": "market fresh fruit tray",
-      "pdf_name": "Fruit Platter",
       "uom": [
         "package"
       ],
@@ -1709,7 +1669,6 @@
     },
     {
       "name": "whole fresh fruit",
-      "pdf_name": "Whole Fruit",
       "uom": [
         "package"
       ],
@@ -1718,7 +1677,6 @@
     },
     {
       "name": "silver",
-      "pdf_name": null,
       "uom": [
         "package"
       ],
@@ -1731,8 +1689,25 @@
       ]
     },
     {
+      "name": "continental breakfast",
+      "uom": [
+        "package"
+      ]
+    },
+    {
+      "name": "cascade",
+      "uom": [
+        "package"
+      ]
+    },
+    {
+      "name": "olympic",
+      "uom": [
+        "package"
+      ]
+    },
+    {
       "name": "gold",
-      "pdf_name": null,
       "uom": [
         "package"
       ],
@@ -1754,7 +1729,6 @@
     },
     {
       "name": "platinum",
-      "pdf_name": null,
       "uom": [
         "package"
       ],
